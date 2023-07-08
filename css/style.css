@@ -1,0 +1,50 @@
+.container {
+    width: 1790px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    padding-top: 64px;
+    background-color: black;
+}
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    color: var(--wei, #FFF);
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    margin-right:631px;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-link {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-account {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: auto;
+}
