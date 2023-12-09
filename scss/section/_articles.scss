@@ -1,0 +1,110 @@
+.articlas-title {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 27px;
+    width: 555px;
+}
+
+.articlas-text {
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 27px;
+    width: 632px;
+}
+
+.articlas-get {
+    margin-top: 27px;
+    color: var(--accent, #FBD784);
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-left: 104px;
+}
+
+.articlas-more {
+    margin-top: 27px;
+    color: var(--accent, #FBD784);
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    width: 127px;
+}
+
+.articlas-item {
+    display: flex;
+    margin-bottom: 200px;
+    gap: 114px;
+    max-width: 1462px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    height: 720px;
+    
+
+
+
+}
+
+.articlas-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 150px;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: 0 38px;
+
+    
+}
+
+.articlas-item:nth-child(1) .articlas-box {
+    background-image: url(../../images/equipment-01.png);
+
+}
+
+.articlas-item:nth-child(2) .articlas-box {
+    background-image: url(../../images/equipment-02.png);
+
+}
+
+.articlas-item:nth-child(3) .articlas-box {
+    background-image: url(../../images/equipment-03.png);
+
+}
+
+.articlas-item:nth-child(even) {
+    flex-direction: row-reverse;
+    background-position: right center;
+}
+
+.articlas-img{
+    width: 566px;
+    height: 720px;
+}
+
+.articlas-more::after {
+    content: '';
+    display: block;
+    background-image: url(../../images/arrow_downward_24px.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 24px;
+    position: absolute;
+    top:15%;
+    right: 0;
+}
